@@ -21,6 +21,6 @@ The defualt installation requires the GTBackup executable and the supporting doc
 - Curses UI provides real time progress.
 - Logging allows users to know how up to date their backups are.
 - Fast backups courtesy of rsync.
-... Since GTBackup is based on rsync, only the changes between backup are copied. This makes for fast backups.
+... Since GTBackup is based on rsync, only the changes between backups are copied. This makes for fast backups.
 
 
