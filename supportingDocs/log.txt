@@ -1,0 +1,2 @@
+#GTBackup-Log
+#Date,time,Profile,BackupLocation

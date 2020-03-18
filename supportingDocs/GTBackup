@@ -1,0 +1,27 @@
+.\" Manpage for GTBackup.
+.\" Contact gt8806@users.noreply.github.com to correct errors or typos.
+.TH man 8 "14 October 2019" "1.0" "GTBackup man page"
+.SH NAME
+GTBackup \- System Backup Utility 
+.SH SYNOPSIS
+GTBackup [PATH_TO_BACKUP_LOCATION]
+
+GTBackup [PROFILENAME] [PATH_TO_BACKUP_LOCATION]
+.SH DESCRIPTION
+GTBackup is a utility for system Backups based on rsync. Profiles allow for multiple configurations, and network support allows for remote backups. 
+.SH OPTIONS
+.TP
+.BR \-last ", "
+Prints info on the last backup performed.
+.TP
+.BR \-last " " [PROFILENAME] ", "
+Prints the info on the last backup of this profile that was performed.
+.TP
+.BR \-log ", "
+Prints the entire log of backups.
+.SH SEE ALSO
+rsync 
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Gus Tropea (gt8806@users.noreply.github.com)
