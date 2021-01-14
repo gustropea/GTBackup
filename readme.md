@@ -12,7 +12,7 @@ The defualt installation requires the GTBackup executable and the supporting doc
 
 ## Features
 
-- Profiles allows for multiple configurations.
+- Profiles allow for multiple configurations.
 ... This enables every user of the machine to have their own unique profile. Any user can perform a backup from their account or from an administrator account.
 
 - Network support allows for remote backups.
@@ -20,7 +20,7 @@ The defualt installation requires the GTBackup executable and the supporting doc
 
 - Curses UI provides real time progress.
 - Logging allows users to know how up to date their backups are.
-- Fast backups courtesy of rsync.
+- Fast backupS.
 ... Since GTBackup is based on rsync, only the changes between backups are copied. This makes for fast backups.
 
 
