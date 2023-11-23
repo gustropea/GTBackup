@@ -1,6 +1,6 @@
 # GTBackup
 
-GTBackup is a Unix command line utility written in C++. The purpose of GTBackup is to provide an easy to use  versatile tool for system backups. GTBackup is based on rsync and features a curses UI.
+This was a small project that I wrote one weekend as an undergrad. It is a Unix command line utility written in C++. The purpose of GTBackup was to provide an easy to use versatile tool for system backups. GTBackup uses rsync and features a curses UI.
 
 ## Getting Started
 
@@ -21,6 +21,5 @@ The defualt installation requires the GTBackup executable and the supporting doc
 - Curses UI provides real time progress.
 - Logging allows users to know how up to date their backups are.
 - Fast backups.
-... Since GTBackup is based on rsync, only the changes between backups are copied. This makes for fast backups.
-
+... Since GTBackup uses rsync, only the changes between backups are copied. This makes for fast backu
 
